@@ -1,0 +1,46 @@
+{
+  "kind": "collectionType",
+  "collectionName": "booking_sections",
+  "info": {
+    "singularName": "booking-section",
+    "pluralName": "booking-sections",
+    "displayName": "Последняя секция",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Subtitle": {
+      "type": "text",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Button": {
+      "type": "component",
+      "repeatable": true,
+      "component": "button.button",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "collectionName": "components_studio_components_studio_components",
+  "info": {
+    "displayName": "StudioComponents"
+  },
+  "options": {},
+  "attributes": {
+    "Icon": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Title": {
+      "type": "string"
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}

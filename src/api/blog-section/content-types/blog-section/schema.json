@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "blog_sections",
+  "info": {
+    "singularName": "blog-section",
+    "pluralName": "blog-sections",
+    "displayName": "Секция Блог",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Blog": {
+      "displayName": "Blog",
+      "type": "component",
+      "repeatable": true,
+      "component": "blog.blog",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "Title": {
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      },
+      "type": "string"
+    }
+  }
+}

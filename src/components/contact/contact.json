@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_contact_contacts",
+  "info": {
+    "displayName": "Contact"
+  },
+  "options": {},
+  "attributes": {
+    "ContactTitle": {
+      "type": "string"
+    },
+    "ContactText": {
+      "type": "blocks"
+    }
+  }
+}

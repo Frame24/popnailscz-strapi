@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "socials",
+  "info": {
+    "singularName": "social",
+    "pluralName": "socials",
+    "displayName": "Социальные сети",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Url": {
+      "type": "string"
+    },
+    "SocialName": {
+      "type": "string"
+    }
+  }
+}

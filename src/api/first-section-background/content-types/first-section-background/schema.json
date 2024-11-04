@@ -1,0 +1,27 @@
+{
+  "kind": "singleType",
+  "collectionName": "first_section_backgrounds",
+  "info": {
+    "singularName": "first-section-background",
+    "pluralName": "first-section-backgrounds",
+    "displayName": "Фон первой секции",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Image": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    }
+  }
+}

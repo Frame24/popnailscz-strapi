@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "studio_infos",
+  "info": {
+    "singularName": "studio-info",
+    "pluralName": "studio-infos",
+    "displayName": "Информация о студии",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
+  "attributes": {
+    "Title": {
+      "type": "string",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "StudioComponents": {
+      "displayName": "StudioComponents",
+      "type": "component",
+      "repeatable": true,
+      "component": "studio-components.studio-components",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    }
+  }
+}

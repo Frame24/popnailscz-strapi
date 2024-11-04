@@ -1,0 +1,19 @@
+{
+  "collectionName": "components_price_list_price_lists",
+  "info": {
+    "displayName": "PriceList",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "duration": {
+      "type": "string"
+    },
+    "price": {
+      "type": "string"
+    }
+  }
+}
