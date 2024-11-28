@@ -3,9 +3,11 @@ import type { Schema, Struct } from '@strapi/strapi';
 export interface BlogBlog extends Struct.ComponentSchema {
   collectionName: 'components_blog_blogs';
   info: {
+    description: '';
     displayName: 'Blog';
   };
   attributes: {
+    BlogRichText: Schema.Attribute.Blocks;
     BlogText: Schema.Attribute.Text;
     Title: Schema.Attribute.String;
   };

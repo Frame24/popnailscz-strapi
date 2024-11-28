@@ -5,7 +5,13 @@ export default [
   'strapi::cors',
   'strapi::poweredBy',
   'strapi::query',
-  'strapi::body',
+  {
+    name: 'strapi::body',
+    config: {
+      timeout: 300000, // Устанавливаем таймаут в миллисекундах (5 минут)
+      maxFileSize: 100000000, // Устанавливаем максимальный размер файла (опционально, например, 100 MB)
+    },
+  },
   'strapi::session',
   'strapi::favicon',
   'strapi::public',
